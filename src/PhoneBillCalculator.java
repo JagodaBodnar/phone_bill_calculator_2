@@ -14,7 +14,6 @@ public class PhoneBillCalculator {
         /*--------------CLIENT3------------*/
 
         PhoneBill client3 = new PhoneBill(3, 100, 100, 115);
-        client3.setMinutesUsed(120);
         client3.printItemizedBill();
     }
 }
